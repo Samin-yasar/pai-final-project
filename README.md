@@ -60,7 +60,7 @@ update the site automatically.
 - GitHub: [pai-final-project](https://github.com/Samin-yasar/pai-final-project).
 - The repository uses an MIT License for project code. Dataset terms remain
   CC BY 4.0 as listed in [SOURCES.md](./SOURCES.md).
-- Thumbnail: still needs a finished 16:9 image of at least 640 × 360 pixels;
-  the files in `thumbnail/` are templates.
+- Thumbnail: `thumbnail/dengue-in-context.png` (1280 × 720); editable source:
+  `thumbnail/dengue-in-context.svg`.
 - Video: omitted from this project. The course says students under 18 should
   not make a video.

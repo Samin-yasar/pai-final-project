@@ -7,3 +7,7 @@
 - AI assistant using Copilot SDK in VS Code: Initialized the local Git repository on `main`, added the MIT License, and linked the site to `https://github.com/Samin-yasar/pai-final-project`. Confirmed that the public GitHub repository exists and is empty.
 - Student: Chose `pai1.samin-yasar.dev` as the desired public domain.
 - AI assistant using Copilot SDK in VS Code: Configured the Vite app for a domain-root deployment, and documented build and custom-domain setup.
+- Student: Asked for a project thumbnail.
+- AI assistant using Copilot SDK in VS Code: Created an accessible, 1280 × 720 SVG thumbnail and matching PNG following the supplied sample's short title and safe-area guidance; included the dashboard's historical totals and held-out 2025 model test.
+- Student: Pointed out that the top data-explorer label extended past its pill border and asked for a precise safe-area check.
+- AI assistant using Copilot SDK in VS Code: Shortened and resized the top label pill, inset the right dashboard panel from the safe-area border, moved the footer line above the bottom safe-area edge, and regenerated the PNG.

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title description">
+  <title id="title">Dengue, in context</title>
+  <desc id="description">Bangladesh dengue data dashboard thumbnail with reported case and death totals and a historical case chart.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#102d27"/>
+      <stop offset="1" stop-color="#17483c"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#35b69a"/>
+      <stop offset="1" stop-color="#087f68"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#d9e8df" opacity=".12"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="720" rx="34" fill="url(#background)"/>
+  <rect width="1280" height="720" rx="34" fill="url(#dots)"/>
+  <circle cx="1190" cy="58" r="190" fill="#35b69a" opacity=".08"/>
+  <circle cx="58" cy="680" r="220" fill="#35b69a" opacity=".06"/>
+
+  <g font-family="Inter, Aptos, Arial, sans-serif">
+    <rect x="80" y="90" width="300" height="46" rx="23" fill="#d8eee4"/>
+    <circle cx="107" cy="113" r="7" fill="#087f68"/>
+    <text x="128" y="119" fill="#17483c" font-size="16" font-weight="700" letter-spacing=".8">BANGLADESH · DENGUE</text>
+
+    <text x="76" y="250" fill="#f5faf6" font-size="82" font-weight="750" letter-spacing="-2">Dengue, in</text>
+    <text x="76" y="344" fill="#f5faf6" font-size="82" font-weight="750" letter-spacing="-2">context.</text>
+    <text x="82" y="402" fill="#c6ddd1" font-size="24" font-weight="500">Cases, deaths &amp; a probability model</text>
+    <text x="82" y="438" fill="#c6ddd1" font-size="24">A student-built look at reported data</text>
+
+    <rect x="80" y="478" width="472" height="2" fill="#a5c9b8" opacity=".42"/>
+    <rect x="80" y="502" width="218" height="88" rx="15" fill="#ffffff" opacity=".1"/>
+    <text x="100" y="534" fill="#c6ddd1" font-size="16" font-weight="700" letter-spacing=".8">REPORTED CASES</text>
+    <text x="100" y="571" fill="#f5faf6" font-size="30" font-weight="750">520,138</text>
+    <rect x="314" y="502" width="238" height="88" rx="15" fill="#ffffff" opacity=".1"/>
+    <text x="334" y="534" fill="#f2c7bd" font-size="16" font-weight="700" letter-spacing=".8">REPORTED DEATHS</text>
+    <text x="334" y="571" fill="#fff3ef" font-size="30" font-weight="750">2,667</text>
+
+    <text x="82" y="615" fill="#d7e8df" font-size="18" font-weight="600">HISTORICAL TOTALS · 2020–2024</text>
+    <text x="82" y="640" fill="#b9d1c5" font-size="17">Educational project · not a live health alert</text>
+
+    <rect x="604" y="82" width="592" height="500" rx="26" fill="#f8faf7"/>
+    <text x="644" y="135" fill="#18312a" font-size="24" font-weight="750">Reported dengue cases</text>
+    <text x="644" y="165" fill="#60736a" font-size="17">Annual totals in the model training years</text>
+
+    <rect x="638" y="188" width="524" height="334" rx="16" fill="#eff4ef"/>
+    <g stroke="#d4dfd8" stroke-width="1">
+      <path d="M688 237H1132"/>
+      <path d="M688 297H1132"/>
+      <path d="M688 357H1132"/>
+      <path d="M688 417H1132"/>
+    </g>
+    <g fill="#74857c" font-size="14" text-anchor="end">
+      <text x="678" y="242">350k</text>
+      <text x="678" y="302">250k</text>
+      <text x="678" y="362">150k</text>
+      <text x="678" y="422">50k</text>
+    </g>
+
+    <rect x="742" y="451" width="68" height="17" rx="7" fill="url(#bar)"/>
+    <rect x="842" y="429" width="68" height="39" rx="7" fill="url(#bar)"/>
+    <rect x="942" y="229" width="68" height="239" rx="7" fill="url(#bar)"/>
+    <rect x="1042" y="393" width="68" height="75" rx="7" fill="url(#bar)"/>
+    <g fill="#4a6257" font-size="16" font-weight="700" text-anchor="middle">
+      <text x="776" y="495">2021</text>
+      <text x="876" y="495">2022</text>
+      <text x="976" y="495">2023</text>
+      <text x="1076" y="495">2024</text>
+    </g>
+    <text x="644" y="553" fill="#53675d" font-size="16">2025 held out for a final model test</text>
+  </g>
+</svg>
