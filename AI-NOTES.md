@@ -11,3 +11,5 @@
 - AI assistant using Copilot SDK in VS Code: Created an accessible, 1280 × 720 SVG thumbnail and matching PNG following the supplied sample's short title and safe-area guidance; included the dashboard's historical totals and held-out 2025 model test.
 - Student: Pointed out that the top data-explorer label extended past its pill border and asked for a precise safe-area check.
 - AI assistant using Copilot SDK in VS Code: Shortened and resized the top label pill, inset the right dashboard panel from the safe-area border, moved the footer line above the bottom safe-area edge, and regenerated the PNG.
+- Student: Selected the submission title “Dengue in Bangladesh: Trends and a Poisson Model” and noted that the old “Dengue, in context” branding did not match it.
+- AI assistant using Copilot SDK in VS Code: Replaced the old working title with the student's chosen title across the site, page metadata, README, and thumbnail; added Stanford PAI 2026 final-project context to the thumbnail.

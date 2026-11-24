@@ -113,7 +113,7 @@ export default function App() {
     <div style={{minHeight: '100vh', background: '#f4f6f1', color: '#18312a', fontFamily: 'system-ui, sans-serif', fontSize: 18}}>
       <header style={{background: '#102d27', color: '#f7fbf8', padding: '14px 22px'}}>
         <div style={{maxWidth: 1120, margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 18, flexWrap: 'wrap'}}>
-          <a href="#top" style={{color: 'inherit', fontWeight: 750, textDecoration: 'none'}}>Dengue, in context</a>
+          <a href="#top" style={{color: 'inherit', fontWeight: 750, textDecoration: 'none'}}>Dengue in Bangladesh</a>
           <nav aria-label="Main navigation" style={{display: 'flex', alignItems: 'center', gap: 20, flexWrap: 'wrap'}}>
             <a href="#trends" style={{color: 'inherit'}}>Historical trends</a>
             <a href="#model" style={{color: 'inherit'}}>How the model works</a>
@@ -133,12 +133,12 @@ export default function App() {
       <main id="top" style={{maxWidth: 1120, margin: '0 auto', padding: '28px 20px 56px'}}>
         <section aria-labelledby="page-title" style={{padding: '28px 4px 10px'}}>
           <p style={{fontWeight: 750, letterSpacing: 1.2, color: '#087f68', marginBottom: 10}}>BANGLADESH · PUBLIC HEALTH DATA EXPLORER</p>
-          <h1 id="page-title" style={{fontSize: 'clamp(34px, 6vw, 56px)', lineHeight: 1.08, maxWidth: 850, margin: '0 0 18px'}}>
-            What can dengue reports tell us—and what can’t they?
+          <h1 id="page-title" style={{fontSize: 'clamp(34px, 6vw, 56px)', lineHeight: 1.08, maxWidth: 950, margin: '0 0 18px'}}>
+            Dengue in Bangladesh: Trends and a Poisson Model
           </h1>
           <p style={{maxWidth: 800, lineHeight: 1.7}}>
-            Explore reported dengue cases and deaths in Bangladesh, then see how a simple probability model predicts
-            case counts for a year it did not learn from. This is a learning project, not a live alert service.
+            What can reported dengue cases and deaths tell us? Explore annual trends and test a monthly probability
+            model on a year it did not learn from. This is a learning project, not a live alert service.
           </p>
           <p style={{display: 'inline-block', background: '#e1eee8', color: '#174f40', padding: '10px 14px', borderRadius: 999, fontWeight: 700}}>
             Historical dataset · January 2020–December 2025

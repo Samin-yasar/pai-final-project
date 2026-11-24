@@ -1,4 +1,4 @@
-# Dengue, in context
+# Dengue in Bangladesh: Trends and a Poisson Model
 
 An educational dashboard about reported dengue cases and deaths in Bangladesh.
 It explores annual historical counts, then evaluates a simple monthly Poisson
